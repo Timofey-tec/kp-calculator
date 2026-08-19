@@ -1,0 +1,22 @@
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/coverage/
+
+# Python / backend
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.egg-info/
+backend/.pytest_cache/
+backend/app/data.db
+backend/generated_contracts/*
+!backend/generated_contracts/.gitkeep
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+*.log
